@@ -20,8 +20,146 @@ img{
 }
 
 
-
 /* Golbal *>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>/
+
+
+
+/* Mediaa Queery */
+
+
+
+
+@media screen and (min-width:300px) {
+  
+.section-contact-us{
+      transform: translateY(800px);
+    
+   
+   
+}
+
+ .section-final{
+transform: translateY(1000px);
+ }
+
+
+.container-contact{
+margin: 0;
+
+}
+
+
+
+}
+
+
+
+   
+
+
+
+
+
+
+@media screen and (min-width:800px) {
+  
+.img-about{
+    width: 40%;
+}
+
+
+ .nav-item .nav-link{
+    
+    padding: 0 15px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(34, 34, 34);
+    line-height: 23px;
+    font-family: Poppins, sans-serif;
+}
+
+
+.nav-tabs {
+    border: none !important;
+    border-radius: 0 !important; 
+}
+
+
+
+.nav-tabs .nav-link {
+    border: none !important; 
+    border-radius: 0 !important;
+} */
+
+
+
+ .card-item-portfolio{
+  width: 30%;
+    margin: 20px;
+  
+} 
+
+.c-customer{
+    width: 25%;
+}
+
+
+
+}
+
+
+
+
+@media screen and (min-width:1000px) {
+  
+
+
+}
+
+
+
+
+@media screen and (min-width:1200px) {
+  
+
+
+}
+
+
+
+
+
+
+/* Mediaa Queery */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -252,7 +390,7 @@ animation-play-state: running;
 
 
 .img-about{
-    width: 40%;
+    /* width: 40%; */
    
 }
 
@@ -688,7 +826,7 @@ opacity: 0.1;
 
 
 
-.nav-item .nav-link{
+/* .nav-item .nav-link{
     
     padding: 0 15px;
     font-weight: 700;
@@ -709,30 +847,30 @@ opacity: 0.1;
 .nav-tabs .nav-link {
     border: none !important; 
     border-radius: 0 !important;
-}
+} */
 
 
 
 
 
 
-
-
-
-
-
-
-
-.card-item-portfolio{
+/* 
+ .card-item-portfolio{
   width: 30%;
     margin: 20px;
   
-}
+} */
 
 
 
 
-.layer-portfolio{
+
+
+
+
+
+
+ .layer-portfolio{
         position: absolute;
         background-color:white;
         width: 100%;
@@ -747,7 +885,7 @@ opacity: 0.1;
 
       transition:opacity ;
       transition-duration: 1s;
-}
+}  
 
 
 
@@ -978,7 +1116,7 @@ transform: translateY(50px);
 .c-customer{
 
     
-    width: 25%;
+    /* width: 25%; */
     text-align: center;
 }
 
@@ -1236,6 +1374,8 @@ transform: rotatey(360deg);
 
 
 .section-contact-us{
+    /* margin-top: 400px; */
+    
     height:100vh ;
     /* background-color: rgba(128, 128, 128, 0.558); */
 }
@@ -1317,11 +1457,11 @@ opacity: 0.1;
     width: 60px;
     height: 60px;
     background-color: #F4F4F4;
-    color: black;                 /* لون الأيقونة */
-  border: 2px solid #F4F4F4;      /* البوردر */
-  border-radius: 60%;             /* يخليها دائرة */
-  padding: 10px;                  /* مسافة بين الأيقونة والبوردر */
-  display: inline-flex;           /* ضبط التمركز */
+    color: black;                  
+  border: 2px solid #F4F4F4;    
+  border-radius: 60%;             
+  padding: 10px;                  
+  display: inline-flex;          
   justify-content: center;
   align-items: center;
  margin-bottom: 10px;
@@ -1433,8 +1573,9 @@ opacity: 0.1;
 
 .section-final{
     background-color: #1C1C1C;
-    margin-top: 100px;
+    /* margin-top: 700px; */
     height: 10vh;
+   
 }
 
 
