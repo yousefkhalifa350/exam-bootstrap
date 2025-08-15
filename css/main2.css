@@ -28,18 +28,18 @@ img{
 
 
 
-
+/* 
 @media screen and (min-width:300px) {
   
 .section-contact-us{
-      transform: translateY(800px);
+      margin-top: 800px;
     
-   
+
    
 }
 
  .section-final{
-transform: translateY(1000px);
+margin-top: 200px;
  }
 
 
@@ -50,7 +50,7 @@ margin: 0;
 
 
 
-}
+} */
 
 
 
@@ -1370,8 +1370,8 @@ transform: rotatey(360deg);
 
 .section-contact-us{
     /* margin-top: 400px; */
-    
-    height:100vh ;
+    /* margin-bottom: 500px; */
+  /* transform: translateY(-600px); */
     /* background-color: rgba(128, 128, 128, 0.558); */
 }
 
@@ -1544,12 +1544,12 @@ opacity: 0.1;
 .submit-btn {
     background-color: #1a1a1a;
     color: white;
-    padding: 12px 30px;
+    padding: 8px 20px;
     border: none;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 8;
     cursor: pointer;
-    margin-top: 15px;
+   margin-top: 1px;
     transition: background-color 1s;
 }
 
@@ -1570,12 +1570,13 @@ opacity: 0.1;
     background-color: #1C1C1C;
     /* margin-top: 700px; */
     height: 10vh;
-   
+    /* transform: translateY(-50px); */
 }
 
 
 
 .container-final{
+ 
   display: flex;
   text-align: center;
   justify-content: center;
